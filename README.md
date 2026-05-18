@@ -32,4 +32,19 @@ brew "<formula>"
 
 | Formula | Description | Install |
 | --- | --- | --- |
-| _Coming soon_ | Tools will be listed here as they are added. | - |
+| `prooflog` | Local-first proof reports for agent-assisted code changes. | `brew install malikdraz/tap/prooflog` |
+
+## ProofLog
+
+Install ProofLog from this tap:
+
+```sh
+brew install malikdraz/tap/prooflog
+```
+
+Or add the tap first:
+
+```sh
+brew tap malikdraz/tap
+brew install prooflog
+```
