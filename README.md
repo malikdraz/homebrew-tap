@@ -30,9 +30,35 @@ brew "<formula>"
 
 ## Available Formulae
 
-| Formula | Description | Install |
-| --- | --- | --- |
+| Formula    | Description                                                | Install                               |
+| ---------- | ---------------------------------------------------------- | ------------------------------------- |
 | `prooflog` | Local-first proof reports for agent-assisted code changes. | `brew install malikdraz/tap/prooflog` |
+
+## Available Casks
+
+| Cask      | Description                                                 | Install                                     |
+| --------- | ----------------------------------------------------------- | ------------------------------------------- |
+| `dayline` | Local-first engineering work ledger for the macOS menu bar. | `brew install --cask malikdraz/tap/dayline` |
+
+## Dayline
+
+Dayline is a local-first macOS menu bar app and CLI that records engineering
+work — commands, commits, tests, and agent sessions — into a local ledger and
+generates grounded daily summaries. The app is signed and notarized and
+requires macOS 14 or later.
+
+Install Dayline from this tap:
+
+```sh
+brew install --cask malikdraz/tap/dayline
+```
+
+Or add the tap first:
+
+```sh
+brew tap malikdraz/tap
+brew install --cask dayline
+```
 
 ## ProofLog
 
